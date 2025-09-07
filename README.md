@@ -17,11 +17,14 @@ It's a gaming experience built on cryptographic truth, not trust. Your assets ar
 
 This project was built as a complete, production-ready MVP for the BlockDAG Hackathon. It demonstrates how to build a polished, live, and user-friendly decentralized application from the ground up on a modern EVM network.
 
-<img width="700" alt="BlockDAG Lottery Dashboard" src="https://YOUR_IMAGE_HOSTING_URL/dashboard.png" />
+<img width="700" alt="BlockDAG Lottery Dashboard" src="public/dboard.png" />
 *<p align="center">The Live Dashboard: Real-time prize pool, player count, and a dynamic countdown.</p>*
 
-<img width="700" alt="BlockDAG Lottery Admin Panel" src="https://YOUR_IMAGE_HOSTING_URL/admin-panel.png" />
+<img width="700" alt="BlockDAG Lottery Admin Panel" src="public/adminpanel.png" />
 *<p align="center">The Admin Panel: Secure, owner-only functions to manage the lottery rounds.</p>*
+
+<img width="700" alt="BlockDAG Lottery Buy Tickect" src="public/butticket.png.png" />
+*<p align="center">The Buy ticket: Secure, and easy to buy in just two click buy ticket then approve transaction in your metamask.</p>*
 
 ## How It Actually Works
 
@@ -55,7 +58,7 @@ Setting up the BlockDAG Lottery is straightforward. Follow these steps to get th
 **2. Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/blockdag-lotto-builder.git
+git clone ttps://github.com/Yamojr001/lottery.git
 cd blockdag-lotto-builder
 
 # Install all necessary dependencies
@@ -103,6 +106,6 @@ Building this project was a journey from a simple idea to a fully functional dAp
 
 **Built with ❤️ and a lot of debugging.**
 
----
 
-**Application**: `https://YOUR_VERCEL_OR_NETLIFY_URL` | **GitHub**: `https://github.com/your-username/blockdag-lotto-builder`
+
+ **GitHub**: `https://github.com/Yamojr001/lottery`
