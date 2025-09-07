@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 142.1 76.2% 41.2%; /* Neon Green */
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 25%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.1 76.2% 41.2%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    @apply dark:bg-background dark:text-foreground;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* --- NEW STYLE FOR THE ADMIN PANEL CALLOUT --- */
+@layer components {
+  .callout {
+    @apply p-4 rounded-lg flex items-start space-x-3;
+    background-color: rgba(139, 92, 246, 0.1); /* Purple with opacity */
+    border: 1px solid rgba(139, 92, 246, 0.3);
+  }
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-green-300 via-green-400 to-green-500 bg-clip-text text-transparent;
+}
