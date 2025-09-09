@@ -12,6 +12,7 @@
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "composite": true,   // 👈 required for project references
 
     /* Linting */
     "strict": true,
